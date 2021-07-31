@@ -127,7 +127,6 @@ body {
 //0.5     background-image: url("/RuneScape__HD_Title_Screen_720p.gif");
 //    background-size: 100% 100%;
 //    background-repeat: no-repeat;
-    opacity: 0.15;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -250,14 +249,24 @@ body {
     position: fixed;
 }
 
-.binary {
+.outer-binary {
     position: absolute;
-    animation: scroll 30s linear 0s infinite;
+    width: 100%;
+    background-color: black;
     overflow-x: hidden;
-    left: 0;
     bottom: 0;
+    z-index: 2;
+    box-shadow: 0 0 3px white;
+    height: 30px;
+}
+
+.binary {
+    display: inline-block;
+    position: relative;
+    animation: scroll 30s linear 0s infinite;
     color: white;
     opacity: 0.25;
+    top: 0.5em;
 }
 
 @keyframes scroll {
