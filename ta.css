@@ -16,7 +16,6 @@ a:link {
 a:hover, a:focus {
     color: purple !important;
     text-shadow: 0 0 30px darkred;
-    font-size: 12px;
 }
 
 a:visited {
