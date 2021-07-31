@@ -286,3 +286,8 @@ html {
     overflow-y: hidden;
     overflow-x: hidden;
 }
+
+audio {
+    visibility: hidden;
+    display: none;
+}
