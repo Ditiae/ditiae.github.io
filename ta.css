@@ -1,0 +1,276 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+a:hover, a:focus {
+    color: purple !important;
+    text-shadow: 0 0 30px darkred;
+    font-size: 12px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.title {
+    padding-top: 0.5em;
+    color: lightgrey;
+    min-height: 1rem;
+    line-height: 0.75em;
+    text-align: center;
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.subheader {
+    color: darkgrey;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.imgheader {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.image {
+    margin-top: 35px;
+    text-align: center;
+    width: 512px;
+    box-shadow: 0 0 5px white;
+    position: relative;
+}
+
+.dividee {
+    white-space: nowrap;
+    color: darkgray;
+    line-height: 1;
+    text-align: center;
+    font-size: 1rem;
+    margin: 1rem 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+
+.dmca {
+    font-size: 10px;
+    text-align: justify;
+    position: relative;
+    color: black;
+}
+
+hr {
+    box-shadow: 0 0 5px red;
+    width: 150px;
+    margin-top: 2em;
+}
+
+p {
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.info {
+    max-width: 800px;
+    text-indent: 36px;
+    margin: 0 auto;
+    color: white !important;
+    text-align: justify;
+}
+
+body {
+    background-image: url("/double-bubble-dark.png");
+    background-color: black;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    overflow-x: hidden;
+    min-width: 320px;
+    height: 100%;
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif !important;
+    font-size: 14px !important;
+    line-height: 1.4285em !important;
+    color: rgba(0, 0, 0, 255) !important;
+    text-shadow: black 0 0 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smooth: always;
+}
+
+.main {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.main::before {
+    content: "";
+//0.25    background-image: url("https://cdn.osxdaily.com/wp-content/uploads/2018/03/party-parrot-terminal.mov.gif");
+//0.15    background-image: url("https://namelessalgorithm.com/genesis/blog/scrolling/demo.gif"); //Syltefar says hello
+//0.10    background-image: url("https://thumbs.gfycat.com/LinedDarlingHoki-size_restricted.gif");
+//0.5     background-image: url("/RuneScape__HD_Title_Screen_720p.gif");
+//    background-size: 100% 100%;
+//    background-repeat: no-repeat;
+    opacity: 0.15;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.info {
+    position: relative;
+}
+
+
+.easyPieChartLabel {
+    color: rgba(0, 0, 0, 255) !important;
+    text-shadow: black 0 0 0 !important;
+}
+
+.navibar {
+    z-index: 2;
+    box-shadow: 0 0 3px white;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 30px;
+}
+
+.navibar a {
+    color: white;
+    width: 8%;
+    min-width: 80px;
+    white-space: nowrap;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: verdana, serif;
+}
+
+.navibar a:hover {
+    background: white;
+    color: black;
+}
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.snowflake {
+    position: fixed;
+    background-color: #ccc;
+    user-select: none;
+    z-index: 4;
+    pointer-events: none;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.dropdown {
+    color: white;
+    width: 8%;
+    min-width: 80px;
+    white-space: nowrap;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: verdana, serif;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    vertical-align: middle;
+    min-width: 80px;
+    width: 100%;
+    font-size: 17px;
+    font-family: verdana, serif;
+    color: white;
+    border: none;
+    background-color: black;
+}
+
+.navibar a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+    color: black;
+}
+
+.dropdown-content {
+    width: 8%;
+    min-width: 80px;
+    display: none;
+    position: absolute;
+    background-color: black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 3;
+}
+
+.dropdown-content a {
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: white;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    position: fixed;
+}
+
+.binary {
+    position: absolute;
+    animation: scroll 30s linear 0s infinite;
+    overflow-x: hidden;
+    left: 0;
+    bottom: 0;
+    color: white;
+    opacity: 0.25;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translate(0,0)
+    }
+
+    100% {
+        transform: translate(-1200px,0)
+    }
+}
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
