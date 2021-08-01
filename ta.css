@@ -119,14 +119,10 @@ body {
 
 .main::before {
     content: "";
-//0.25    background-image: url("https://cdn.osxdaily.com/wp-content/uploads/2018/03/party-parrot-terminal.mov.gif");
-//0.15    background-image: url("https://namelessalgorithm.com/genesis/blog/scrolling/demo.gif");
-//0.065    background-image: url("https://thumbs.gfycat.com/LinedDarlingHoki-size_restricted.gif");
-//0.50    background-image: url("/RuneScape__HD_Title_Screen_720p.gif");
-    background-image: url("https://static3.bigstockphoto.com/0/5/2/large1500/25012112.jpg");
-    background-size: 40% 40%;
-    background-repeat: repeat;
-    opacity: 0.45;
+// 0.50 background-image: url("/RuneScape__HD_Title_Screen_720p.gif");
+//    background-size: 40% 30%;
+//    background-repeat: repeat;
+//    opacity: 0.45;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -227,7 +223,7 @@ body {
     display: none;
     position: absolute;
     background-color: black;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 3;
 }
 
@@ -273,11 +269,11 @@ body {
 
 @keyframes scroll {
     0% {
-        transform: translate(0,0)
+        transform: translate(0, 0)
     }
 
     100% {
-        transform: translate(-1200px,0)
+        transform: translate(-1200px, 0)
     }
 }
 
@@ -291,4 +287,41 @@ html {
 audio {
     visibility: hidden;
     display: none;
+}
+
+.pacman {
+    top: 0.5em;
+    position: absolute;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: conic-gradient(yellow 0, yellow 17.5%, transparent 12.5%, transparent 32.5%, yellow 32.5%);
+    animation: eating 0.3s ease-in alternate infinite;
+}
+
+@keyframes eating {
+    0% {
+        background: conic-gradient(yellow 0, yellow 17.5%, transparent 17.5%, transparent 32.5%, yellow 32.5%);
+    }
+    15% {
+        background: conic-gradient(yellow 0, yellow 18.5%, transparent 18.5%, transparent 31.5%, yellow 31.5%);
+    }
+    30% {
+        background: conic-gradient(yellow 0, yellow 19.5%, transparent 19.5%, transparent 30.5%, yellow 30.5%);
+    }
+    45% {
+        background: conic-gradient(yellow 0, yellow 20.5%, transparent 20.5%, transparent 29.5%, yellow 29.5%);
+    }
+    60% {
+        background: conic-gradient(yellow 0, yellow 21.5%, transparent 21.5%, transparent 28.5%, yellow 28.5%);
+    }
+    75% {
+        background: conic-gradient(yellow 0, yellow 22.5%, transparent 22.5%, transparent 27.5%, yellow 27.5%);
+    }
+    87% {
+        background: conic-gradient(yellow 0, yellow 23.5%, transparent 23.5%, transparent 26.5%, yellow 26.5%);
+    }
+    100% {
+        background: conic-gradient(yellow 0, yellow 25%, transparent 25%, transparent 25%, yellow 25%);
+    }
 }
