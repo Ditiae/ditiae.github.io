@@ -299,6 +299,15 @@ audio {
     animation: eating 0.3s ease-in alternate infinite;
 }
 
+.banana {
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 30px;
+}
+
 @keyframes eating {
     0% {
         background: conic-gradient(yellow 0, yellow 17.5%, transparent 17.5%, transparent 32.5%, yellow 32.5%);
