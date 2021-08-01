@@ -1,6 +1,8 @@
 h1 {
     text-align: center;
+    width: fit-content;
     color: white;
+    margin: auto;
 }
 
 h2 {
@@ -372,10 +374,9 @@ h2 {
 .grid-container {
     margin: auto;
     grid-row-gap: 25px;
-    grid-column-gap: 20px;
-    width: 46%;
+    max-width: 35%;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 33.3% 33.4% 33.3%;
 }
 
 .inner-grid {
