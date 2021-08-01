@@ -119,7 +119,7 @@ body {
 
 .main::before {
     content: "";
-    background-image: url("https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxH5rd9eDAjcFyv45SRYAFMIcKL_PArgVSL403ulRUWEndVKv1g56ABg07d1QF5-zwelIz0qObJ2wUu47mxtjclvasau3TwG0CvZUlievC8Nim0Bq-uxQGKkUF3A");
+    background-image: url("https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxH5rd9eDAjcFyv45SRYAFMIcKL_PArgVSL403ulRUWEndVKv-g56GBg07cAEFtLvxcwUz0quaJ2VAtI7jzYSKkvX1ZL-FkmgI65Ej0-qSp9Wn2Rq-uxSVCqRRow");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 //    opacity: 0.45;
