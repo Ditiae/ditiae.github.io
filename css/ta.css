@@ -91,7 +91,6 @@ p {
 }
 
 body {
-//    background-image: url("/double-bubble-dark.png");
     background-color: black !important;
     top: 0;
     bottom: 0;
@@ -119,7 +118,7 @@ body {
 
 .main::before {
     content: "";
-    background-image: url("https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxH5rd9eDAjcFyv45SRYAFMIcKL_PArgVSL403ulRUWEndVKv-g56GBg07cAEFtLvxcwUz0quaJ2VAtI7jzYSKkvX1ZL-FkmgI65Ej0-qSp9Wn2Rq-uxSVCqRRow");
+    background-image: url("../images/background.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     opacity: 0.50;
@@ -327,8 +326,8 @@ audio {
 
 ::-webkit-scrollbar {
     display: none;
-    width: 0;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
+    width: 0; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
 }
 
 ::-webkit-scrollbar-thumb {

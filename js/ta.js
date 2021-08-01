@@ -19,6 +19,7 @@ const reduceMotionQuery = matchMedia("(prefers-reduced-motion)");
 function setAccessibilityState() {
     enableAnimations = !reduceMotionQuery.matches;
 }
+
 setAccessibilityState();
 
 reduceMotionQuery.addEventListener("animations", setAccessibilityState);
@@ -32,6 +33,7 @@ function setup() {
         window.addEventListener("resize", setResetFlag, false);
     }
 }
+
 setup();
 
 //
