@@ -190,8 +190,8 @@ body {
 
 .dropdown {
     color: white;
-    width: 8%;
-    min-width: 80px;
+    width: calc(100% / 8);
+    min-width: fit-content;
     white-space: nowrap;
     text-align: center;
     text-decoration: none;
@@ -202,7 +202,6 @@ body {
 
 .dropdown .dropbtn {
     vertical-align: middle;
-    min-width: 80px;
     width: 100%;
     font-size: 17px;
     font-family: verdana, serif;
