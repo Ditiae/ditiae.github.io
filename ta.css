@@ -156,7 +156,7 @@ body {
 
 .navibar a {
     color: white;
-    width: calc(100% / 6);
+    width: calc(100% / 8);
     min-width: fit-content;
     white-space: nowrap;
     text-align: center;
