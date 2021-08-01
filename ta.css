@@ -119,9 +119,9 @@ body {
 
 .main::before {
     content: "";
-// 0.50 background-image: url("/RuneScape__HD_Title_Screen_720p.gif");
-//    background-size: 40% 30%;
-//    background-repeat: repeat;
+    background-image: url("https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxH5rd9eDAjcFyv45SRYAFMIcKL_PArgVSL403ulRUWEndVKv1g56ABg07d1QF5-zwelIz0qObJ2wUu47mxtjclvasau3TwG0CvZUlievC8Nim0Bq-uxQGKkUF3A");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 //    opacity: 0.45;
     position: absolute;
     top: 0;
