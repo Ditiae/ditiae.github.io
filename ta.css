@@ -135,11 +135,6 @@ body {
     position: relative;
 }
 
-.opacity {
-    background: rgba(0,0,0,0.5);
-}
-
-
 .easyPieChartLabel {
     color: rgba(0, 0, 0, 255) !important;
     text-shadow: black 0 0 0 !important;
