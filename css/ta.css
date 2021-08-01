@@ -347,3 +347,13 @@ audio {
 ::-webkit-scrollbar-thumb {
     background: #FF0000;
 }
+
+.ico {
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+}
+
+h2 {
+    display: inline-block;
+}
