@@ -88,6 +88,15 @@ p {
     color: white;
     text-align: justify;
     margin: auto;
+    position: relative;
+}
+
+.para {
+    display: block;
+    width: 46%;
+    margin: auto;
+    text-align: center;
+    color: white;
 }
 
 body {
@@ -114,6 +123,7 @@ body {
     overflow-x: hidden;
     padding-bottom: 30px;
     scrollbar-width: none;
+    text-align: center;
 }
 
 .main::before {
@@ -128,10 +138,6 @@ body {
     left: 0;
     right: 0;
     z-index: -1;
-}
-
-.info {
-    position: relative;
 }
 
 .easyPieChartLabel {
