@@ -78,6 +78,7 @@ hr {
 }
 
 p {
+    margin: 4px;
     text-align: center;
     color: white;
     letter-spacing: 1px;
@@ -351,10 +352,48 @@ audio {
 .ico {
     position: relative;
     display: inline-block;
+    top: 5px;
+    height: 18px;
+    width: 18px;
+}
+
+.ico2 {
+    position: relative;
+    display: inline-block;
+    top: 3px;
     height: 18px;
     width: 18px;
 }
 
 h2 {
     display: inline-block;
+}
+
+.grid-container {
+    margin: auto;
+    grid-row-gap: 25px;
+    grid-column-gap: 20px;
+    width: 46%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.inner-grid {
+    text-align: center;
+    display: grid;
+}
+
+.contact a {
+    font-size: 12px;
+}
+
+.grid-last {
+    grid-column: 2;
+}
+
+.avatar {
+    background-color: black;
+    height: 64px;
+    width: 64px;
+    margin: auto;
 }
