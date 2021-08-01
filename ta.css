@@ -254,6 +254,7 @@ body {
     z-index: 2;
     box-shadow: 0 0 3px white;
     height: 30px;
+    vertical-align: center;
 }
 
 .binary {
@@ -288,7 +289,7 @@ audio {
 }
 
 .pacman {
-    top: 0.5em;
+    top: calc(30px / 4);
     position: absolute;
     border-radius: 50%;
     width: 15px;
