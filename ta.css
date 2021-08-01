@@ -121,11 +121,12 @@ body {
     content: "";
 //0.25    background-image: url("https://cdn.osxdaily.com/wp-content/uploads/2018/03/party-parrot-terminal.mov.gif");
 //0.15    background-image: url("https://namelessalgorithm.com/genesis/blog/scrolling/demo.gif");
-    background-image: url("https://thumbs.gfycat.com/LinedDarlingHoki-size_restricted.gif");
+//0.065    background-image: url("https://thumbs.gfycat.com/LinedDarlingHoki-size_restricted.gif");
+    background-image: url("https://media2.giphy.com/media/l3vRnoppYtfEbemBO/giphy.gif?cid=790b761130250f12e6645c189d7d56b1364a7609179016b5&rid=giphy.gif&ct=g");
 //0.50    background-image: url("/RuneScape__HD_Title_Screen_720p.gif");
 //    background-size: 100% 100%;
 //    background-repeat: no-repeat;
-    opacity: 0.065;
+    opacity: 0.15;
     position: absolute;
     top: 0;
     bottom: 0;
