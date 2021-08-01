@@ -156,8 +156,8 @@ body {
 
 .navibar a {
     color: white;
-    width: 8%;
-    min-width: 80px;
+    width: calc(100% / 6);
+    min-width: fit-content;
     white-space: nowrap;
     text-align: center;
     text-decoration: none;
@@ -217,9 +217,9 @@ body {
 }
 
 .dropdown-content {
-    width: 8%;
+    width: inherit;
     min-width: 80px;
-    display: none;
+    display: block;
     position: absolute;
     background-color: black;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
