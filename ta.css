@@ -84,11 +84,11 @@ p {
 }
 
 .info {
-    max-width: 46vw;
+    width: 46%;
     text-indent: 36px;
-    margin: 0 auto;
-    color: white !important;
+    color: white;
     text-align: justify;
+    margin: auto;
 }
 
 body {
@@ -96,6 +96,8 @@ body {
     background-color: black !important;
     top: 0;
     bottom: 0;
+    left: 0;
+    right: 0;
     padding: 0;
     overflow-x: hidden;
     min-width: 320px;
@@ -105,6 +107,7 @@ body {
     line-height: 1.4285em !important;
     color: rgba(0, 0, 0, 255);
     text-shadow: black 0 0 0;
+    overflow-y: scroll;
 }
 
 .main {
@@ -330,4 +333,13 @@ audio {
     100% {
         background: conic-gradient(yellow 0, yellow 25%, transparent 25%, transparent 25%, yellow 25%);
     }
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
 }
