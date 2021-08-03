@@ -5,11 +5,18 @@ h1 {
     margin: auto;
     padding-top: 25px;
     padding-bottom: 5px;
+    font-family: Gorditas, serif;
 }
 
 h2 {
     text-align: center;
-    color: white;
+    font-family: Staatliches, fantasy;
+    white-space: nowrap;
+    color: darkgray;
+    line-height: 1;
+    font-size: 1.5em;
+    margin: 1rem 0;
+    letter-spacing: 0.02em;
 }
 
 a:link {
@@ -38,7 +45,7 @@ a:visited {
 
 .subheader {
     color: darkgrey;
-    font-size: 1rem;
+    font-size: 0.4em;
     text-align: center;
 }
 
@@ -55,23 +62,12 @@ a:visited {
     position: relative;
 }
 
-.dividee {
-    white-space: nowrap;
-    color: darkgray;
-    line-height: 1;
-    text-align: center;
-    font-size: 1rem;
-    margin: 1rem 0;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.02em;
-}
-
 .dmca {
     font-size: 10px;
     text-align: justify;
     position: relative;
     color: black;
+    font-family: Lobster, cursive;
 }
 
 hr {
@@ -85,6 +81,7 @@ p {
     text-align: center;
     color: white;
     letter-spacing: 1px;
+    font-family: Lato, sans-serif;
 }
 
 .info {
@@ -93,7 +90,7 @@ p {
     text-align: justify;
     margin: auto;
     position: relative;
-    font-family: Poppins, Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-family: Lato, sans-serif;
 }
 
 .para {
@@ -144,11 +141,6 @@ body {
     z-index: -1;
 }
 
-.easyPieChartLabel {
-    color: rgba(0, 0, 0, 255) !important;
-    text-shadow: black 0 0 0 !important;
-}
-
 .navibar {
     z-index: 2;
     box-shadow: 0 0 3px white;
@@ -171,7 +163,7 @@ body {
     text-align: center;
     text-decoration: none;
     font-size: 17px;
-    font-family: verdana, serif;
+    font-family: Thasadith, serif;
 }
 
 .navibar a:hover {
@@ -205,7 +197,6 @@ body {
     text-align: center;
     text-decoration: none;
     font-size: 17px;
-    font-family: verdana, serif;
     overflow: hidden;
     position: relative;
 }
@@ -215,7 +206,7 @@ body {
     vert-align: middle;
     width: 100%;
     font-size: 17px;
-    font-family: verdana, serif;
+    font-family: Thasadith, serif;
     color: white;
     border: none;
     background-color: black;
@@ -398,4 +389,13 @@ h2 {
     height: 64px;
     width: 64px;
     margin: auto;
+}
+
+input {
+    width: 46%;
+    opacity: 0;
+}
+
+input:hover {
+    opacity: 1;
 }
