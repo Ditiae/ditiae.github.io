@@ -30,8 +30,6 @@ let browserHeight;
 
 const slider = document.getElementById("flak");
 
-console.log(slider);
-
 function updateSlider(slideAmount) {
     setCookie("flakes", slideAmount, 365);
 }
@@ -40,6 +38,9 @@ if (document.cookie.indexOf('flakes=') === -1) {
     setCookie("flakes", 30, 365)
 } else {
     flakes = parseInt(getCookie("flakes"));
+    if (slider !== null) {
+        slider.value = flakes;
+    }
 }
 
 // Specify the number of snowflakes you want visible
