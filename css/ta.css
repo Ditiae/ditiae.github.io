@@ -5,7 +5,8 @@ h1 {
     margin: auto;
     padding-top: 25px;
     padding-bottom: 5px;
-    font-family: Gorditas, serif;
+    font-family: Amatic SC, serif;
+    font-size: 2.5em;
 }
 
 h2 {
@@ -41,6 +42,7 @@ a:visited {
     line-height: 0.75em;
     text-align: center;
     font-weight: 700;
+    font-size: 3.5em;
 }
 
 .subheader {
