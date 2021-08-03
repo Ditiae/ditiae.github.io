@@ -12,12 +12,18 @@ h1 {
 h2 {
     text-align: center;
     font-family: Staatliches, fantasy;
-    white-space: nowrap;
     color: darkgray;
     line-height: 1;
     font-size: 1.5em;
-    margin: 1rem 0;
+    margin: 1rem auto;
     letter-spacing: 0.02em;
+    display: block;
+    max-width: 46%;
+    word-wrap: break-word;
+}
+
+.dono {
+    display: inline-block;
 }
 
 a:link {
@@ -25,8 +31,8 @@ a:link {
     color: lightgrey;
 }
 
-a:hover, a:focus {
-    color: purple !important;
+.dmca:hover, a:hover, a:focus {
+    color: purple;
     text-shadow: 0 0 30px darkred;
 }
 
@@ -47,8 +53,13 @@ a:visited {
 
 .subheader {
     color: darkgrey;
-    font-size: 0.4em;
+    font-size: 1em;
+    margin: 0;
+    font-family: "Amatic SC", serif;
+    letter-spacing: 2px;
     text-align: center;
+    font-weight: lighter;
+    display: inline-block;
 }
 
 .imgheader {
@@ -59,13 +70,13 @@ a:visited {
 .image {
     margin-top: 35px;
     text-align: center;
-    width: 512px;
+    width: 425px;
     box-shadow: 0 0 5px white;
     position: relative;
 }
 
 .dmca {
-    font-size: 10px;
+    font-size: 12px;
     text-align: justify;
     position: relative;
     color: black;
@@ -79,32 +90,19 @@ hr {
 }
 
 p {
-    margin: 4px;
-    text-align: center;
-    color: white;
-    letter-spacing: 1px;
-    font-family: Lato, sans-serif;
-}
-
-.info {
     width: 46%;
     color: white;
-    text-align: justify;
-    margin: auto;
+    margin: 4px auto;
     position: relative;
     font-family: Lato, sans-serif;
 }
 
-.para {
-    display: block;
-    width: 46%;
-    margin: auto;
-    text-align: center;
-    color: white;
+.info {
+    text-align: justify;
 }
 
 body {
-    background-color: black !important;
+    background-color: black;
     top: 0;
     bottom: 0;
     left: 0;
@@ -114,10 +112,10 @@ body {
     overflow-x: hidden;
     min-width: 320px;
     max-height: 100%;
-    font-size: 14px !important;
-    line-height: 1.4285em !important;
-    color: rgba(0, 0, 0, 255);
-    text-shadow: black 0 0 0;
+    font-size: 1em;
+    line-height: 1.4285em;
+    color: #000;
+    text-shadow: #000 0 0 0;
 }
 
 .main {
@@ -164,7 +162,7 @@ body {
     white-space: nowrap;
     text-align: center;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1em;
     font-family: Thasadith, serif;
 }
 
@@ -173,7 +171,7 @@ body {
     color: black;
 }
 
-#snowflakeContainer {
+.snowflakeContainer {
     position: absolute;
     left: 0;
     top: 0;
@@ -198,16 +196,15 @@ body {
     white-space: nowrap;
     text-align: center;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1em;
     overflow: hidden;
     position: relative;
 }
 
 .dropdown .dropbtn {
     vertical-align: middle;
-    vert-align: middle;
     width: 100%;
-    font-size: 17px;
+    font-size: 1em;
     font-family: Thasadith, serif;
     color: white;
     border: none;
@@ -250,7 +247,7 @@ body {
 
 .caret-down {
     position: relative;
-    top: 2px !important;
+    top: 2px;
     width: 0.625em;
 }
 
@@ -264,7 +261,7 @@ body {
     z-index: 2;
     box-shadow: 0 0 3px white;
     height: 30px;
-    vertical-align: center;
+    vertical-align: middle;
 }
 
 .binary {
@@ -273,7 +270,9 @@ body {
     animation: scroll 30s linear 0s infinite;
     color: white;
     opacity: 0.25;
-    top: 0.5em;
+    top: 0.25em;
+    font-size: 13px;
+    font-family: "Roboto Mono", system-ui;
 }
 
 @keyframes scroll {
@@ -361,10 +360,6 @@ audio {
     width: 18px;
 }
 
-h2 {
-    display: inline-block;
-}
-
 .grid-container {
     margin: auto;
     grid-row-gap: 25px;
@@ -400,4 +395,8 @@ input {
 
 input:hover {
     opacity: 1;
+}
+
+img + p {
+    font-family: "Orbitron", serif;
 }
