@@ -11,15 +11,19 @@ h1 {
 
 h2 {
     text-align: center;
-    font-family: Staatliches, fantasy;
+    font-family: "Press Start 2P", "Lora", fantasy;
     color: darkgray;
     line-height: 1;
-    font-size: 1.5em;
+    font-size: 1em;
     margin: 1rem auto;
     letter-spacing: 0.02em;
     display: block;
     max-width: 46%;
     word-wrap: break-word;
+}
+
+.news {
+    font-family: "Playfair Display SC", sans-serif;
 }
 
 .dono {
