@@ -47,10 +47,11 @@ a:visited {
 }
 
 .title {
-    padding-top: 0.5rem;
+    padding-top: 28px;
+    padding-bottom: 5px;
     color: lightgrey;
-    min-height: 1rem;
-    line-height: 0.75rem;
+    min-height: 16px;
+    line-height: 2rem;
     text-align: center;
     font-weight: 700;
     font-size: 56px;
@@ -171,11 +172,6 @@ body {
     font-family: Thasadith, serif;
 }
 
-.navibar a:hover {
-    background: white;
-    color: black;
-}
-
 .snowflakeContainer {
     position: absolute;
     left: 0;
@@ -217,8 +213,8 @@ body {
 }
 
 .navibar a:hover, .dropdown:hover .dropbtn {
-    background-color: white;
-    color: black;
+    background-color: #212121;
+    color: white;
 }
 
 .dropdown-content {
