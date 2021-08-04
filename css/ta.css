@@ -35,7 +35,7 @@ a:link {
     color: lightgrey;
 }
 
-.dmca:hover, a:hover, a:focus {
+.dmca:hover, a:hover, a:focus, h2 a:hover {
     color: purple;
     text-shadow: 0 0 30px darkred;
 }
