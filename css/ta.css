@@ -406,3 +406,7 @@ div.contact > p {
     font-size: 14px !important;
     white-space: nowrap;
 }
+
+.form {
+    border: none;
+}
